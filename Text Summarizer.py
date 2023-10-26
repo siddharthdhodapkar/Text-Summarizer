@@ -14,6 +14,9 @@ summarizer = pipeline('summarization')
 # Streamlit app header
 st.title("Text Summarizer")
 
+#Streamlit Caption
+st.caption("Enter the text that you want to summarize in the text box. Select minimum and maximum length of the summary.")
+
 # User input for long text
 long_text = st.text_area("Paste your long text here:")
 
